@@ -1,4 +1,4 @@
 # Vanguard
-An Agent pursuit game, where you have to avoind pursuers and dodge obstacles
+An Agent pursuit game, where you have to avoid pursuers and dodge obstacles
 
-To help me learn cplusplus for ma#y aspirations of game engine dev
+To help me learn cplusplus for my aspirations of game engine dev
