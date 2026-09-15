@@ -1,7 +1,14 @@
+#include "Engine/Engine.h"
+
+#include <chrono>
 #include <iostream>
 
+
 int main() {
-    std::cout << "Vangaurd has started \n";
+    Engine engine;
+    engine.run();
+
+    std::cout << "Vangaurd has Ended \n";
 
     return 0;
 }

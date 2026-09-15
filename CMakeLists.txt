@@ -5,11 +5,12 @@ project(Vanguard LANGUAGES CXX) #name of project, local file root and languages 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-#what to execute
+#what to ~(execute) eh uhhhh, what to compile
 add_executable(Vanguard   
 	src/main.cpp
+	src/Engine/Engine.cpp
 )
-#obvious
+#obvious, includes all in the folder
 target_include_directories(Vanguard PRIVATE
 	include
 )

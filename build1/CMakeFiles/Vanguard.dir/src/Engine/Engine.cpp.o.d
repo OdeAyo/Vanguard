@@ -1,7 +1,8 @@
-CMakeFiles/Vanguard.dir/src/main.cpp.o: \
- /home/ao1/Documents/projects/Vanguard/src/main.cpp \
- /usr/include/stdc-predef.h /usr/include/c++/15/iostream \
- /usr/include/c++/15/bits/requires_hosted.h \
+CMakeFiles/Vanguard.dir/src/Engine/Engine.cpp.o: \
+ /home/ao1/Documents/projects/Vanguard/src/Engine/Engine.cpp \
+ /usr/include/stdc-predef.h \
+ /home/ao1/Documents/projects/Vanguard/include/Engine/Engine.h \
+ /usr/include/c++/15/iostream /usr/include/c++/15/bits/requires_hosted.h \
  /usr/include/c++/15/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \
  /usr/include/c++/15/x86_64-redhat-linux/bits/os_defines.h \
