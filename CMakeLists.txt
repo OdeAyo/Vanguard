@@ -23,6 +23,8 @@ add_executable(Vanguard
 	src/Engine/Engine.cpp
 	src/Engine/Entity/Entity.cpp
 	src/Engine/Core/FileHandler.cpp
+	src/Engine/Platform/LinuxPlatform.cpp
+	src/Engine/Platform/Linux/LinuxWindow.cpp
 )
 #obvious, includes all in the folder
 target_include_directories(Vanguard PRIVATE
@@ -36,16 +38,20 @@ add_executable(VanguardTests
 
 	tests/FileHandlerTests.cpp
 	src/Engine/Core/FileHandler.cpp
+
+	tests/LinuxWindowTests.cpp
+	src/Engine/Platform/Linux/LinuxWindow.cpp
 )
 
 target_include_directories(VanguardTests PRIVATE
 	include
 )
+#so we can use TEST(test_group, name) as is without main or anything
 
 target_link_libraries(VanguardTests PRIVATE
 	GTest::gtest_main
 )
-
+#commandline stuff i think
 include(GoogleTest)
 
 gtest_discover_tests(VanguardTests)

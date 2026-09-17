@@ -39,3 +39,5 @@ bool FileHandler::is_open() const
 {
     return p_file != nullptr;
 }
+
+//ideally handle read and write and creation and append, then replace with i/ostream and filesystem

@@ -23,12 +23,7 @@ void Engine::run()
 
         //START
 
-        FileHandler file1{"README.md"};
-        std::cout << "file1: " << file1.is_open() << '\n';
-        FileHandler file2 {std::move(file1)};
 
-        std::cout << "file1: " << file1.is_open() << '\n';
-        std::cout << "file2: " << file2.is_open() << '\n';
         
         Entity agent(007);
 
