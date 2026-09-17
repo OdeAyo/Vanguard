@@ -10,6 +10,7 @@ add_executable(Vanguard
 	src/main.cpp
 	src/Engine/Engine.cpp
 	src/Engine/Entity/Entity.cpp
+	src/Engine/Core/FileHandler.cpp
 )
 #obvious, includes all in the folder
 target_include_directories(Vanguard PRIVATE

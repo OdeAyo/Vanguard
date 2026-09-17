@@ -10,3 +10,13 @@ std::uint32_t Entity::getiD() const  // const is part of the signature
 bool Entity::is_active() const { return p_active; }
 
 void Entity::destroy() { p_active = false; }
+
+Transform& Entity::get_transform()
+{
+    return p_transform;
+}
+
+const Transform& Entity::get_transform() const
+{
+    return p_transform;
+}

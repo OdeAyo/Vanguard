@@ -1,3 +1,0 @@
-/home/ao1/Documents/projects/Vanguard/build1/CMakeFiles/Vanguard.dir
-/home/ao1/Documents/projects/Vanguard/build1/CMakeFiles/edit_cache.dir
-/home/ao1/Documents/projects/Vanguard/build1/CMakeFiles/rebuild_cache.dir
