@@ -9,6 +9,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 add_executable(Vanguard   
 	src/main.cpp
 	src/Engine/Engine.cpp
+	src/Engine/Entity/Entity.cpp
 )
 #obvious, includes all in the folder
 target_include_directories(Vanguard PRIVATE

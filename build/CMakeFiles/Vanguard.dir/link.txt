@@ -1,1 +1,1 @@
-/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/Vanguard.dir/link.d CMakeFiles/Vanguard.dir/src/main.cpp.o -o Vanguard
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/Vanguard.dir/link.d CMakeFiles/Vanguard.dir/src/main.cpp.o CMakeFiles/Vanguard.dir/src/Engine/Engine.cpp.o CMakeFiles/Vanguard.dir/src/Engine/Entity/Entity.cpp.o -o Vanguard

@@ -129,6 +129,54 @@ Vanguard/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vanguard.dir/build.make CMakeFiles/Vanguard.dir/build
 .PHONY : Vanguard/fast
 
+src/Engine/Engine.o: src/Engine/Engine.cpp.o
+.PHONY : src/Engine/Engine.o
+
+# target to build an object file
+src/Engine/Engine.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vanguard.dir/build.make CMakeFiles/Vanguard.dir/src/Engine/Engine.cpp.o
+.PHONY : src/Engine/Engine.cpp.o
+
+src/Engine/Engine.i: src/Engine/Engine.cpp.i
+.PHONY : src/Engine/Engine.i
+
+# target to preprocess a source file
+src/Engine/Engine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vanguard.dir/build.make CMakeFiles/Vanguard.dir/src/Engine/Engine.cpp.i
+.PHONY : src/Engine/Engine.cpp.i
+
+src/Engine/Engine.s: src/Engine/Engine.cpp.s
+.PHONY : src/Engine/Engine.s
+
+# target to generate assembly for a file
+src/Engine/Engine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vanguard.dir/build.make CMakeFiles/Vanguard.dir/src/Engine/Engine.cpp.s
+.PHONY : src/Engine/Engine.cpp.s
+
+src/Engine/Entity/Entity.o: src/Engine/Entity/Entity.cpp.o
+.PHONY : src/Engine/Entity/Entity.o
+
+# target to build an object file
+src/Engine/Entity/Entity.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vanguard.dir/build.make CMakeFiles/Vanguard.dir/src/Engine/Entity/Entity.cpp.o
+.PHONY : src/Engine/Entity/Entity.cpp.o
+
+src/Engine/Entity/Entity.i: src/Engine/Entity/Entity.cpp.i
+.PHONY : src/Engine/Entity/Entity.i
+
+# target to preprocess a source file
+src/Engine/Entity/Entity.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vanguard.dir/build.make CMakeFiles/Vanguard.dir/src/Engine/Entity/Entity.cpp.i
+.PHONY : src/Engine/Entity/Entity.cpp.i
+
+src/Engine/Entity/Entity.s: src/Engine/Entity/Entity.cpp.s
+.PHONY : src/Engine/Entity/Entity.s
+
+# target to generate assembly for a file
+src/Engine/Entity/Entity.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vanguard.dir/build.make CMakeFiles/Vanguard.dir/src/Engine/Entity/Entity.cpp.s
+.PHONY : src/Engine/Entity/Entity.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -162,6 +210,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Vanguard"
+	@echo "... src/Engine/Engine.o"
+	@echo "... src/Engine/Engine.i"
+	@echo "... src/Engine/Engine.s"
+	@echo "... src/Engine/Entity/Entity.o"
+	@echo "... src/Engine/Entity/Entity.i"
+	@echo "... src/Engine/Entity/Entity.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

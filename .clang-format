@@ -9,3 +9,8 @@ BraceWrapping:
   AfterClass: true
   AfterStruct: True
 
+AlignConsecutiveAssignments:
+  Enabled: true
+  AcrossEmptyLines: false
+  AcrossComments: true
+  AlignCompound: true # Aligns +=, -=, etc. along with =

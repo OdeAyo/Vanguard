@@ -1,4 +1,5 @@
 #include "Engine/Engine.h"
+#include "Engine/Entity/Entity.h"
 
 #include <iostream>
 #include <chrono>
@@ -18,6 +19,17 @@ void Engine::run()
         previousTime = std::chrono::steady_clock::now();
 
         // Game logic - inputs, processing, renderer
+
+        //START
+        Entity agent(007);
+
+        std::cout << "This is Agent " << agent.getiD() << '\n';
+        std::cout << "Status: " << agent.is_active() << '\n';
+        agent.destroy();
+        std::cout << "Status: " << agent.is_active() << '\n';
+
+
+        //END
 
         
 

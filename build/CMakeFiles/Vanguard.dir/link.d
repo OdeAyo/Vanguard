@@ -3,6 +3,8 @@ Vanguard: \
   /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crti.o \
   /usr/lib/gcc/x86_64-redhat-linux/15/crtbegin.o \
   CMakeFiles/Vanguard.dir/src/main.cpp.o \
+  CMakeFiles/Vanguard.dir/src/Engine/Engine.cpp.o \
+  CMakeFiles/Vanguard.dir/src/Engine/Entity/Entity.cpp.o \
   /usr/lib/gcc/x86_64-redhat-linux/15/libstdc++.so \
   /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/libm.so \
   /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/libm.so \
@@ -38,6 +40,10 @@ Vanguard: \
 /usr/lib/gcc/x86_64-redhat-linux/15/crtbegin.o:
 
 CMakeFiles/Vanguard.dir/src/main.cpp.o:
+
+CMakeFiles/Vanguard.dir/src/Engine/Engine.cpp.o:
+
+CMakeFiles/Vanguard.dir/src/Engine/Entity/Entity.cpp.o:
 
 /usr/lib/gcc/x86_64-redhat-linux/15/libstdc++.so:
 
